@@ -1,0 +1,11 @@
+<div class="flex">
+  <div>
+    <h3>Line Chart</h3>
+    <div class="card">
+      <div class="card-body">
+        <EmberChart @type="line" @data={{line.data}} @width={{600}} @height={{200}} @options={{line.options}} />
+      </div>
+    </div>
+  </div>
+</div>
+{{outlet}}
