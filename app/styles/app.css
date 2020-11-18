@@ -1,0 +1,19 @@
+html, body {
+  margin: 20px;
+  font-family: sans-serif;
+}
+.nav-pills {
+  margin-bottom: 40px;
+}
+.nav-pills a {
+  background: white;
+  height: 40px;
+  padding: 15px;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+}
+.nav-pills a.active {
+  background: purple;
+  color: white;
+}
